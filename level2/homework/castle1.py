@@ -85,4 +85,3 @@ color("black")
 forward(290)
 right(90)
 exitonclick()
-# ისეთი არ გამოვიდა როგორიც მინდოდა.
