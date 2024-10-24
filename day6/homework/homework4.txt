@@ -1,0 +1,2 @@
+case sensitive languages-Java, Ruby, and XML.
+case insensitive languages-BASIC, COBOL, Pascal, SQL. 
