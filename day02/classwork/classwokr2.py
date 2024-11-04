@@ -1,0 +1,6 @@
+i1=("sandro")
+i2=("gegechkori")
+i3=(15)
+print(i1)
+print(i2)
+print(i3)
