@@ -32,4 +32,4 @@ print(name + " " + surname )
 
 print(name + " " + str(age))
 
-print(name + " " + surname +" " +str(age) +" " + str(height))
+print(name + " " + surname + " " +str(age) + " " + str(height))
