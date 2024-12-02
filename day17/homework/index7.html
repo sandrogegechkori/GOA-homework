@@ -7,7 +7,6 @@
 
     <body>
         <form>
-            <!-- first name -->
             <label for="first name">first name</label>
             <input type="text" placeholder="" id="first name"/>
             
@@ -25,7 +24,32 @@
                 <option value = "Male">Male</option>
                 <option value= "Female">Female</option>
                 </select>
-                
+                <label for="email">email</label>
+                <input type="email" placeholder="Enter email address" id="email"/>
+                <br><br>
+                <label>Positions Available:</label>
+                <input type="radio" id="junior" name="position" value="junior">
+                <label for="junior">Junior Developer</label>
+                <input type="radio" id="mid" name="position" value="mid">
+                <label for="mid">Mid-level Developer</label>
+                <input type="radio" id="senior" name="position" value="senior">
+                <label for="senior">Senior Developer</label>
+                <br><br>
+                <label>Programming Languages:</label>
+                <input type="checkbox" id="java" name="languages" value="java">
+                <label for="java">Java</label>
+                <input type="checkbox" id="javascript" name="languages" value="javascript">
+                <label for="javascript">JavaScript</label>
+                <input type="checkbox" id="python" name="languages" value="python">
+                <label for="python">Python</label>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password">
+                <br><br>
+                <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
         </form>
     </body>
 </html>
