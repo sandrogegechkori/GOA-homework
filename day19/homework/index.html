@@ -1,34 +1,78 @@
 <html>
     <head>
-        <title>travel with us</title>
+        <title>მოგზაურობის ბლოგი</title>
     </head>
-
     <body>
         <header>
-            <h1>travel with us</h1>
+            <h1>მოგზაურობის ბლოგი</h1>
             <nav>
-                <a href="#top-destenations">ტოპ მიმართულებები</a>
-                <a href="#interesting-facts">საინტერესო ფაქტები</a> |
-                <a href="#contact">კონტაქტი</a>
+                <a href="#top-destinations-header">ტოპ მიმართულებები</a> |
+                <a href="#interesting-facts-header">საინტერესო ფაქტები</a> |
+                <a href="#contact-header">კონტაქტი</a>
             </nav>
         </header>
-
+    
         <main>
-            <section id="top-destinations">
-                <h2>ტოპ მიმართულებები</h2>
-                <p>მოგზაურობა სამყაროს გარშემო საოცარია</p>
+            <section>
+                <h2 id="top-destinations-header">ტოპ მიმართულებები</h2>
+                <p>მოგზაურობა სამყაროს გარშემო საოცარია.</p>
                 <ul>
-                    <li>პარიზი - სიყვარულის ქალაქი</li>
-                    <li>რომი - კულტურული მემკვიდრეობა</li>
-                    <li>ტოკიო - ტექნოლოგიების ქალაქი</li>
+                    <li><em>პარიზი</em> - სიყვარულის ქალაქი.</li>
+                    <li><strong>რომი</strong> - კულტურული მემკვიდრეობა.</li>
+                    <li>ტოკიო - ტექნოლოგიების დედაქალაქი.</li>
                 </ul>
                 <br>
                 <ol>
-                    <li>ისტორიული ადგილების მონახულება</li>
+                    <li>ისტორიული ადგილების მონახულება.</li>
                     <li>ლოკალური კერძების დაგემოვნება.</li>
                     <li>შესანიშნავი ფოტოების გადაღება.</li>
                 </ol>
+                <hr>
+            </section>
+    
+            <section>
+                <h2 id="interesting-facts-header">საინტერესო ფაქტები</h2>
+                <p>გთავაზობთ საინტერესო ინფორმაციას:</p>
+                <ul>
+                    <li>მსოფლიოს უდიდესი უდაბნო არის ანტარქტიდაში.</li>
+                    <li>ამაზონი დედამიწის ფილტვებს წარმოადგენს.</li>
+                    <li>დედამიწაზე არსებული 70% წყალია.</li>
+                </ul>
+                <br>
+                <ol>
+                    <li><u>საკმარისი ბიუჯეტი</u> აუცილებელია.</li>
+                    <li><b>კარგი მეგობრები ყოველთვის სასარგებლოა.</b></li>
+                    <li><strong>მოგზაურობის მოტივაცია</strong> განწყობისთვის.</li>
+                </ol>
+                <br>
+                <p>ქვემოთ მოცემულია რამდენიმე მედია:</p>
+                <img src="image copy 2.png">
+                <br><br>
+                <video controls>
+                    <source src="paris.mp4" type="video/mp4">
+                </video>
+                <br><br>
+                <iframe width="991" height="557" src="https://www.youtube.com/embed/xV2JLaT0wfw" title="Eiffel Tower In Paris France   Video Background HD 1080p" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <hr>
+            </section>
+    
+            <section>
+                <h2 id="contact-header">კონტაქტი</h2>
+                <form>
+                    <label for="name">სახელი:</label><br>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="email">ელ.ფოსტა:</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="message">მესიჯი:</label><br>
+                    <textarea id="message" name="message"></textarea><br><br>
+                    <button type="submit">გაგზავნა</button>
+                </form>
+                <hr>
             </section>
         </main>
+    
+        <footer>
+            <p><a href="#top">დაბრუნება ზევით</a></p>
+        </footer>
     </body>
 </html>
