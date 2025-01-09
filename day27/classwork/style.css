@@ -1,0 +1,8 @@
+.example {
+    color: #ff5733; /* ტექსტის ფერი */
+    background-color: #f0f0f0; /* ფონის ფერი */
+    text-align: center; /* განლაგება */
+    font-size: 24px; /* ტექსტის ზომა */
+    font-weight: bold; /* ტექსტის სისქე */
+    border: 2px solid #333; /* საზღვარი */
+}

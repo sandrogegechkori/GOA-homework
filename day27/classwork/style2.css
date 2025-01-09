@@ -1,0 +1,10 @@
+.styled-div {
+    color: #2e8b57; /* ტექსტის ფერი */
+    background-color: #f5f5dc; /* ფონის ფერი */
+    text-align: center; /* განლაგება */
+    font-size: 18px; /* ტექსტის ზომა */
+    font-weight: bold; /* ტექსტის სისქე */
+    border: 2px solid #8b0000; /* საზღვარი */
+    padding: 20px; /* დამატებითი სივრცე შიგნით */
+    margin: 20px; /* გარეთა სივრცე */
+}
