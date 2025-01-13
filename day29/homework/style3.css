@@ -1,0 +1,7 @@
+#myButton {
+    color: red;  /* ID სელექტორში, ფერი წითელი */
+}
+
+.button {
+    color: blue;  /* class სელექტორში, ფერი ლურჯი */
+}
